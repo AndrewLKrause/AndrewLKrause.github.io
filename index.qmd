@@ -3,25 +3,19 @@ title-block: false
 format: revealjs
 ---
 
-<div style="text-align:center;">
-
 ## Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations
 
 **Andrew Krause (@Blindmath)**
 
-<img src="images/DurUni.png" alt="Durham University logo" style="max-width:280px; width:45%; height:auto; margin:1rem 0;" />
+![](images/DurUni.png){fig-alt="Durham University logo" width="45%"}
 
 *To navigate: press → and ← or swipe left and right on mobile.*
-
-</div>
 
 ---
 
 ## Join this presentation
 
 ::: columns
-
-:::
 
 ::: column
 ![](images/presentation_qr.png){fig-alt="andrewlkrause.github.io" width="75%"}
@@ -33,6 +27,7 @@ format: revealjs
 ![](images/qr-code.png){fig-alt="VisualPDE.com" width="75%"}
 
 **VisualPDE.com**
+:::
 
 :::
 
