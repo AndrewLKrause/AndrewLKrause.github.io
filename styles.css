@@ -82,77 +82,30 @@
   }
 }
 
-@media (max-width: 767px) and (orientation: portrait) {
-  body,
-  html {
-    overflow-x: hidden;
+@media (max-width: 767px) {
+  .reveal .slides > section:not(#visualpde-example) {
+    display: none !important;
   }
 
-  .reveal {
-    font-size: 18px;
+  .reveal .slides > section#visualpde-example {
+    display: block !important;
   }
 
-  .reveal .slides section {
-    padding: 0.9rem 0.7rem;
+  #visualpde-example .column:first-child {
+    display: none !important;
   }
 
-  .title-logo {
-    width: min(160px, 46vw);
-    max-width: 160px;
-    margin: 1rem auto;
-  }
-
-  .reveal h1 {
-    font-size: 1.55em;
-  }
-
-  .reveal h2 {
-    font-size: 1.25em;
-  }
-
-  .reveal h3 {
-    font-size: 1.1em;
-  }
-
-  .columns {
-    gap: 0.65rem;
-  }
-
-  .column {
+  #visualpde-example .column {
+    width: 100%;
+    max-width: 100%;
     min-width: 0;
   }
 
   .visualpde-embed {
-    min-height: 220px;
+    min-height: 70vh;
   }
 }
 
-@media (max-width: 767px) and (orientation: landscape) {
-  .reveal {
-    font-size: 20px;
-  }
-
-  .title-logo {
-    width: min(160px, 30vw);
-    max-width: 160px;
-  }
-
-  .reveal h1 {
-    font-size: 1.6em;
-  }
-
-  .reveal h2 {
-    font-size: 1.25em;
-  }
-
-  .reveal h3 {
-    font-size: 1.08em;
-  }
-
-  .visualpde-embed {
-    min-height: 220px;
-  }
-}
 kbd {
   background: #f5f5f5;
   border: 2px solid #ccc;
