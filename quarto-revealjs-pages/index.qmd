@@ -1,0 +1,24 @@
+title: "My Reveal.js Presentation"
+author: "Your Name"
+format: 
+  revealjs:
+    theme: "black"
+    slideLevel: 2
+
+---
+
+# Welcome to My Presentation
+
+This is the first slide of my presentation.
+
+---
+
+# Slide 2
+
+Here is some content for the second slide.
+
+---
+
+# Conclusion
+
+Thank you for attending!
