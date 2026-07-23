@@ -1,10 +1,6 @@
 name: Build and deploy Quarto presentation
 
-on:
-  push:
-    branches:
-      - main
-      - master
+
 
 permissions:
   contents: read
