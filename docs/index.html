@@ -127,7 +127,7 @@
     <div class="slides">
 
 
-<section id="communicating-nonlinear-dynamics-across-boundaries-via-interactive-simulations" class="slide level2 title-slide center">
+<section id="communicating-nonlinear-dynamics-across-boundaries-via-interactive-simulations" class="slide level2">
 <h2>Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations</h2>
 <p><strong>Andrew Krause (<span class="citation" data-cites="Blindmath">@Blindmath</span>)</strong></p>
 
@@ -137,33 +137,31 @@
 <h2>Join this presentation</h2>
 <div class="columns">
 <div class="column">
-<p><img data-src="images/presentation_qr.png" style="width:75.0%" alt="andrewlkrause.github.io"></p>
+<p><img data-src="images/presentation_qr.png" style="width:75.0%"></p>
 <p><strong>andrewlkrause.github.io</strong></p>
 </div><div class="column">
-<p><img data-src="images/qr-code.png" style="width:75.0%" alt="VisualPDE.com"></p>
+<p><img data-src="images/qr-code.png" style="width:75.0%"></p>
 <p><strong>VisualPDE.com</strong></p>
 </div></div>
-<div style="text-align:center;">
-<p><em>To navigate: press → and ← or swipe left and right on mobile.</em></p>
-</div>
+<p style="margin-top:1.25rem;">
+<em>To navigate: press → and ← or swipe left and right on mobile.</em>
+</p>
 </section>
 <section id="visualpde-example" class="slide level2">
 <h2>VisualPDE Example</h2>
-<section id="gray-scott-reaction-diffusion-system" class="slide-panel">
-<h3>Gray-Scott reaction-diffusion system</h3>
-<div class="equations">
+<div class="columns">
+<div class="column">
+<h3 id="gray-scott-reaction-diffusion-system">Gray-Scott reaction-diffusion system</h3>
 <p><span class="math display">\[
 \begin{aligned}
 \frac{\partial u}{\partial t} &amp;= D_u\nabla^2 u + f(u, v) = \nabla^2 u + u^2 v - (a+b) u , \\
 \frac{\partial v}{\partial t} &amp;= D_v \nabla^2 v + g(u, v) = 2 \nabla^2 v-u^2 v + a (1 - v)
 \end{aligned}
 \]</span></p>
-</div>
-<div class="iframe-panel">
-<iframe title="VisualPDE simulation" class="visualpde-embed" src="https://visualpde.com/sim?options=N4IgxiBcIG4JYCc4BM4GcQBoTIKq6hAEYscA1MwgJlOQHU7CAGWjaIpz0sA6F7MJXakA1oQCGAXiYA6JgGYA7AAI4AO2UBtJpllEAugG4ARtLkA2VRu1yALLpkHDpALbjmMpa7jNSAB0IAYQBXNAAXAHsXfwQI4wBTADFgtUJgmLj4gBl4tQBzMIALKHlOHRAEXhBggD0qACoYZQBaZQAKcQBqYwBKevTsBCEQZtqGps7lcXq2ohblGB7SBEY+UjQA6Hl11OhghdIYKE1QcQRYgHdAiIAbCOCEKHMAVmf5Z+wzy4ARXLQ4MIATygsg+IC+EQuOXyRQAsuIAB6EEifc6QgDKYHEN3iEmCkVIEIuAA1CFkAPoIgD0VHmSNRlwAmmTyYCafNgZ98RF0fEwtc7g8AErifK4yAAM2xaHiAnELniCHEABVCnz3JBSnKFUqAAqFHya8pYnXiABaESiIJkAA4BLd7gg3JtYIgUOhuA6HsYzlApTcZfa1JEHmx-YHwBFg46BY6QUGQwgAKJ+f53XayJhEBOOgBywWikDBYFCkRc6IeUrA4vDspA8RcxgiaDD0rrDabLYAgo24LkwtawR3m2hvnAJRLQuLZOZsMOW-rDUQZM9FEw7fXGyP0Qa1MDIBw51uW+iXJaimp4i3rVQj520Oi-PESzdfZBZLfN-fVerrYobc89ggBKNxwH4T7ILGDzOn6bbYKBl50CgcLBDcUDZiAbgIlBQzYsE4ogLIXjYC46g4WQeEEfwIARDAiqvvutbYLR9HiICOHxjRdEIAxKZplG1qcGCLE8WxSYIn4jzCMx3EMVk6jxEhyAoWhB7YH4dxhMqgJPoQGmiri6mxMY6h5LBAZ1pJmTJLs1QZAk0IFMURqcEZmTabp0DqGE8R5EqaFuQkpJrIF8TMiFIBoJW4jVjZvjYEUCDxPE3wABLxHAeSFGEmLYtOMiKNgdFgJECCJH2NzIOZEYXIU4haREuqaWkpBqPKBEkAAvvo2AXFVeykBcLoDJFcAuMqAI4oQADiSqAoAyASYhEYQDp1QA" frameborder="0">
+</div><div class="column">
+<iframe class="visualpde-embed" title="VisualPDE simulation" src="https://visualpde.com/sim?options=N4IgxiBcIG4JYCc4BM4GcQBoTIKq6hAEYscA1MwgJlOQHU7CAGWjaIpz0sA6F7MJXakA1oQCGAXiYA6JgGYA7AAI4AO2UBtJpllEAugG4ARtLkA2VRu1yALLpkHDpALbjmMpa7jNSAB0IAYQBXNAAXAHsXfwQI4wBTADFgtUJgmLj4gBl4tQBzMIALKHlOHRAEXhBggD0qACoYZQBaZQAKcQBqYwBKevTsBCEQZtqGps7lcXq2ohblGB7SBEY+UjQA6Hl11OhghdIYKE1QcQRYgHdAiIAbCOCEKHMAVmf5Z+wzy4ARXLQ4MIATygsg+IC+EQuOXyRQAsuIAB6EEifc6QgDKYHEN3iEmCkVIEIuAA1CFkAPoIgD0VHmSNRlwAmmTyYCafNgZ98RF0fEwtc7g8AErifK4yAAM2xaHiAnELniCHEABVCnz3JBSnKFUqAAqFHya8pYnXiABaESiIJkAA4BLd7gg3JtYIgUOhuA6HsYzlApTcZfa1JEHmx-YHwBFg46BY6QUGQwgAKJ+f53XayJhEBOOgBywWikDBYFCkRc6IeUrA4vDspA8RcxgiaDD0rrDabLYAgo24LkwtawR3m2hvnAJRLQuLZOZsMOW-rDUQZM9FEw7fXGyP0Qa1MDIBw51uW+iXJaimp4i3rVQj520Oi-PESzdfZBZLfN-fVerrYobc89ggBKNxwH4T7ILGDzOn6bbYKBl50CgcLBDcUDZiAbgIlBQzYsE4ogLIXjYC46g4WQeEEfwIARDAiqvvutbYLR9HiICOHxjRdEIAxKZplG1qcGCLE8WxSYIn4jzCMx3EMVk6jxEhyAoWhB7YH4dxhMqgJPoQGmiri6mxMY6h5LBAZ1pJmTJLs1QZAk0IFMURqcEZmTabp0DqGE8R5EqaFuQkpJrIF8TMiFIBoJW4jVjZvjYEUCDxPE3wABLxHAeSFGEmLYtOMiKNgdFgJECCJH2NzIOZEYXIU4haREuqaWkpBqPKBEkAAvvo2AXFVeykBcLoDJFcAuMqAI4oQADiSqAoAyASYhEYQDp1QA" frameborder="0">
 </iframe>
-</div>
-</section>
+</div></div>
 </section>
 <section id="slide-3" class="slide level2">
 <h2>Slide 3</h2>
