@@ -3,17 +3,17 @@ title-block: false
 format: revealjs
 ---
 
-### Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations
+## Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations
+
+<br>
 
 **Andrew Krause (@Blindmath)**
 
-<img class="title-logo" src="images/DurUni.png" alt="Durham University logo" loading="eager">
-
-- ***Navigation:*** <kbd>f</kbd> fullscreen; <kbd>esc</kbd> slide deck; <kbd>→</kbd>/<kbd>←</kbd> (swiping mobile) move slides; <kbd>h</kbd> help.
+<img src="images/DurUni.png" alt="Durham University logo" loading="eager">
 
 ---
 
-## Join this presentation
+### Join this presentation
 
 :::  columns
 
@@ -32,6 +32,66 @@ format: revealjs
 :::
 
 <p style="margin-top:1.25rem;">***Navigation:*** <kbd>f</kbd> fullscreen; <kbd>esc</kbd> slide deck; <kbd>→</kbd>/<kbd>←</kbd> (swiping mobile) move slides; <kbd>h</kbd> help.</p>
+
+---
+
+### Modelling is about communicating ideas
+
+::: {.swap-frame}
+
+::: {.fragment .fade-in-then-out}
+::: {.columns}
+::: {.column width="90%}
+
+"This model will be a simplification and an idealization, and consequently a falsification. It is to be hoped that the features retained ***for discussion*** are those of greatest importance in the present state of knowledge." --Alan Turing
+
+:::
+::: {.column width="40%"}
+![](images/Turing.jpg){width=100%}
+:::
+:::
+:::
+
+
+
+::: {.fragment .fade-in-then-out}
+::: {.columns}
+::: {.column width="80%}
+
+"[We] treat the same problem with several alternative models each with different simplifications... if these models, despite their different assumptions, lead to similar results we have a robust theorem which is relatively free of the details of the model. Hence ***our truth is the intersection of independent lies.***" --Richard Levins
+:::
+::: {.column width="20%"}
+![](images/Levins.jpg){width=100%}
+:::
+:::
+:::
+
+::: {.fragment .fade-in-then-out}
+::: {.columns}
+::: {.column width="90%}
+
+"...although all scientists share a common ambition for knowledge, it does not follow that ***what counts as knowledge is commonly agreed upon***. The history of science reveals a wide diversity of questions asked, explanations sought, and methodologies employed..." --Evelyn Fox Keller
+:::
+::: {.column width="40%"}
+![](images/Keller.webp){width=100%}
+:::
+:::
+:::
+
+::: {.fragment .fade-in-then-out}
+::: {.columns}
+::: {.column width="90%}
+
+"...this diversity is in turn reflected in the kinds of knowledge acquired, and indeed in ***what counts as knowledge***. To a large degree, both the ***kinds of questions one asks and the explanations that one finds satisfying*** depend on one's *a priori* relation to the objects of study." --Evelyn Fox Keller
+:::
+::: {.column width="40%"}
+![](images/Keller.webp){width=100%}
+:::
+:::
+:::
+:::
+
+
 
 ---
 
