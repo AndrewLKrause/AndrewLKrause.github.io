@@ -1,11 +1,44 @@
 ---
-title: "Reveal.js Presentation"
+title-block: false
 format: revealjs
 ---
 
-# Welcome
+<div style="text-align:center;">
 
-- TODO: Add introductory material here.
+## Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations
+
+**Andrew Krause (@Blindmath)**
+
+<img src="images/DurUni.png" alt="Durham University logo" style="max-width:280px; width:45%; height:auto; margin:1rem 0;" />
+
+*To navigate: press → and ← or swipe left and right on mobile.*
+
+</div>
+
+---
+
+## Join this presentation
+
+::: columns
+
+:::
+
+::: column
+![](images/presentation_qr.png){fig-alt="andrewlkrause.github.io" width="75%"}
+
+**andrewlkrause.github.io**
+:::
+
+::: column
+![](images/qr-code.png){fig-alt="VisualPDE.com" width="75%"}
+
+**VisualPDE.com**
+
+:::
+
+<div style="text-align:center;">
+*To navigate: press → and ← or swipe left and right on mobile.*
+</div>
 
 ---
 
@@ -34,13 +67,6 @@ $$
 
 ## Slide 3
 
-> Add more sections with `---` between slides.
-
-- Speaker notes can be added using `???`
+> More to add...
 
 ---
-
-## Thank you
-
-- Visit your published page after deployment
-- Customize the content in `index.qmd`
