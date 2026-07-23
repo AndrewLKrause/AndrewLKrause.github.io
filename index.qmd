@@ -35,9 +35,7 @@ format: revealjs
 
 ---
 
-### VisualPDE Example
-
-##### Gray-Scott reaction-diffusion system
+### Gray(t)-Scott! VisualPDE in a slide
 
 ::: {.small}
 $$
