@@ -3,62 +3,54 @@ title-block: false
 format: revealjs
 ---
 
-## Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations
+### Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations
 
 **Andrew Krause (@Blindmath)**
 
 <img class="title-logo" src="images/DurUni.png" alt="Durham University logo" loading="eager">
 
-*To navigate: press → and ← or swipe left and right on mobile.*
+- ***Navigation:*** <kbd>f</kbd> fullscreen; <kbd>esc</kbd> slide deck; <kbd>→</kbd>/<kbd>←</kbd> (swiping mobile) move slides; <kbd>h</kbd> help.
 
 ---
 
 ## Join this presentation
 
-::: columns
+:::  columns
 
-::: column
-![](images/presentation_qr.png){width=75%}
+:::  column
+![](images/presentation_qr.png){width=65%}
 
-**andrewlkrause.github.io**
+[**andrewlkrause.github.io**](https://andrewlkrause.github.io){target="_blank"}
 :::
 
 ::: column
-![](images/qr-code.png){width=75%}
+![](images/qr-code.png){width=65%}
 
-**VisualPDE.com**
+[**VisualPDE.com**](https://visualpde.com){target="_blank"}
 :::
 
 :::
 
-<p style="margin-top:1.25rem;">*To navigate: press → and ← or swipe left and right on mobile.*</p>
+<p style="margin-top:1.25rem;">***Navigation:*** <kbd>f</kbd> fullscreen; <kbd>esc</kbd> slide deck; <kbd>→</kbd>/<kbd>←</kbd> (swiping mobile) move slides; <kbd>h</kbd> help.</p>
 
 ---
 
-## VisualPDE Example
+### VisualPDE Example
 
-::: columns
+##### Gray-Scott reaction-diffusion system
 
-::: column
-
-### Gray-Scott reaction-diffusion system
-
+::: {.small}
 $$
 \begin{aligned}
 \frac{\partial u}{\partial t} &= D_u\nabla^2 u + f(u, v) = \nabla^2 u + u^2 v - (a+b) u , \\
 \frac{\partial v}{\partial t} &= D_v \nabla^2 v + g(u, v) = 2 \nabla^2 v-u^2 v + a (1 - v)
 \end{aligned}
 $$
-
 :::
-
-::: column
 
 <iframe class="visualpde-embed" title="VisualPDE simulation" src="https://visualpde.com/sim?options=N4IgxiBcIG4JYCc4BM4GcQBoTIKq6hAEYscA1MwgJlOQHU7CAGWjaIpz0sA6F7MJXakA1oQCGAXiYA6JgGYA7AAI4AO2UBtJpllEAugG4ARtLkA2VRu1yALLpkHDpALbjmMpa7jNSAB0IAYQBXNAAXAHsXfwQI4wBTADFgtUJgmLj4gBl4tQBzMIALKHlOHRAEXhBggD0qACoYZQBaZQAKcQBqYwBKevTsBCEQZtqGps7lcXq2ohblGB7SBEY+UjQA6Hl11OhghdIYKE1QcQRYgHdAiIAbCOCEKHMAVmf5Z+wzy4ARXLQ4MIATygsg+IC+EQuOXyRQAsuIAB6EEifc6QgDKYHEN3iEmCkVIEIuAA1CFkAPoIgD0VHmSNRlwAmmTyYCafNgZ98RF0fEwtc7g8AErifK4yAAM2xaHiAnELniCHEABVCnz3JBSnKFUqAAqFHya8pYnXiABaESiIJkAA4BLd7gg3JtYIgUOhuA6HsYzlApTcZfa1JEHmx-YHwBFg46BY6QUGQwgAKJ+f53XayJhEBOOgBywWikDBYFCkRc6IeUrA4vDspA8RcxgiaDD0rrDabLYAgo24LkwtawR3m2hvnAJRLQuLZOZsMOW-rDUQZM9FEw7fXGyP0Qa1MDIBw51uW+iXJaimp4i3rVQj520Oi-PESzdfZBZLfN-fVerrYobc89ggBKNxwH4T7ILGDzOn6bbYKBl50CgcLBDcUDZiAbgIlBQzYsE4ogLIXjYC46g4WQeEEfwIARDAiqvvutbYLR9HiICOHxjRdEIAxKZplG1qcGCLE8WxSYIn4jzCMx3EMVk6jxEhyAoWhB7YH4dxhMqgJPoQGmiri6mxMY6h5LBAZ1pJmTJLs1QZAk0IFMURqcEZmTabp0DqGE8R5EqaFuQkpJrIF8TMiFIBoJW4jVjZvjYEUCDxPE3wABLxHAeSFGEmLYtOMiKNgdFgJECCJH2NzIOZEYXIU4haREuqaWkpBqPKBEkAAvvo2AXFVeykBcLoDJFcAuMqAI4oQADiSqAoAyASYhEYQDp1QA" frameborder="0"></iframe>
 
-:::
 
-:::
 
 ---
 

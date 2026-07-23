@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "index.html#communicating-nonlinear-dynamics-across-boundaries-via-interactive-simulations",
-    "href": "index.html#communicating-nonlinear-dynamics-across-boundaries-via-interactive-simulations",
-    "title": "",
-    "section": "Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations",
-    "text": "Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations\nAndrew Krause (@Blindmath)\n\nTo navigate: press → and ← or swipe left and right on mobile."
-  },
-  {
     "objectID": "index.html#join-this-presentation",
     "href": "index.html#join-this-presentation",
     "title": "",
     "section": "Join this presentation",
-    "text": "Join this presentation\n\n\n\nandrewlkrause.github.io\n\n\nVisualPDE.com\n\n\nTo navigate: press → and ← or swipe left and right on mobile."
-  },
-  {
-    "objectID": "index.html#visualpde-example",
-    "href": "index.html#visualpde-example",
-    "title": "",
-    "section": "VisualPDE Example",
-    "text": "VisualPDE Example\n\n\nGray-Scott reaction-diffusion system\n\\[\n\\begin{aligned}\n\\frac{\\partial u}{\\partial t} &= D_u\\nabla^2 u + f(u, v) = \\nabla^2 u + u^2 v - (a+b) u , \\\\\n\\frac{\\partial v}{\\partial t} &= D_v \\nabla^2 v + g(u, v) = 2 \\nabla^2 v-u^2 v + a (1 - v)\n\\end{aligned}\n\\]"
+    "text": "Join this presentation\n\n\n\nandrewlkrause.github.io\n\n\nVisualPDE.com\n\n\nNavigation: f fullscreen; esc slide deck; →/← (swiping mobile) move slides; h help."
   },
   {
     "objectID": "index.html#slide-3",
