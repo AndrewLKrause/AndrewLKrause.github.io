@@ -70,40 +70,87 @@
 
 @media (max-width: 900px) {
   .reveal {
-    font-size: 24px;
+    font-size: 22px;
   }
 
-  .columns {
-    flex-direction: column;
-    max-width: 100%;
-  }
-
-  .column {
-    max-width: 100%;
-  }
-
-  .title-logo {
-    width: min(180px, 40vw);
-  }
-
-  .reveal h1 {
-    font-size: 1.8em;
-  }
-
-  .reveal h2 {
-    font-size: 1.35em;
-  }
-
-  .reveal h3 {
-    font-size: 1.18em;
+  .reveal .slides section {
+    padding: 1.25rem 1rem;
   }
 
   .visualpde-embed {
     min-height: 260px;
   }
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .reveal {
+    font-size: 18px;
+  }
 
   .reveal .slides section {
-    padding: 1.25rem 1rem;
+    padding: 0.9rem 0.7rem;
+  }
+
+  .title-logo {
+    width: min(160px, 46vw);
+    max-width: 160px;
+    margin: 1rem auto;
+  }
+
+  .reveal h1 {
+    font-size: 1.55em;
+  }
+
+  .reveal h2 {
+    font-size: 1.25em;
+  }
+
+  .reveal h3 {
+    font-size: 1.1em;
+  }
+
+  .columns {
+    gap: 0.65rem;
+  }
+
+  .column {
+    min-width: 0;
+  }
+
+  .visualpde-embed {
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .reveal {
+    font-size: 20px;
+  }
+
+  .title-logo {
+    width: min(160px, 30vw);
+    max-width: 160px;
+  }
+
+  .reveal h1 {
+    font-size: 1.6em;
+  }
+
+  .reveal h2 {
+    font-size: 1.25em;
+  }
+
+  .reveal h3 {
+    font-size: 1.08em;
+  }
+
+  .visualpde-embed {
+    min-height: 220px;
   }
 }
 kbd {
