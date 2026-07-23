@@ -12,3 +12,33 @@
 .reveal .slides section h3 {
   color: #ffdd57;
 }
+
+.slide-panel {
+  display: grid;
+  grid-template-columns: minmax(300px, 42%) minmax(320px, 58%);
+  gap: 1.25rem;
+  align-items: start;
+  width: 100%;
+}
+
+.slide-panel .equations {
+  min-width: 0;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  padding: 0.35rem 0;
+}
+
+.slide-panel .equations .math-display,
+.slide-panel .equations .katex-display {
+  font-size: 1.2rem;
+}
+
+.slide-panel .iframe-panel {
+  min-height: 420px;
+}
+
+.slide-panel .visualpde-embed {
+  width: 100%;
+  min-height: 420px;
+  border: 0;
+}

@@ -4,7 +4,7 @@
     "href": "index.html#visualpde-example",
     "title": "Reveal.js Presentation",
     "section": "VisualPDE Example",
-    "text": "VisualPDE Example\nReaction-diffusion system\n[\n\\[\\begin{aligned}\n\\frac{\\partial u}{\\partial t} &= D_u \\nabla^2 u + f(u, v), \\\\\n\\frac{\\partial v}{\\partial t} &= D_v \\nabla^2 v + g(u, v)\n\\end{aligned}\\]\n]"
+    "text": "VisualPDE Example\n\nReaction-diffusion system\n\n\\[\n\\begin{aligned}\n\\frac{\\partial u}{\\partial t} &= D_u \\nabla^2 u + f(u, v), \\\\\n\\frac{\\partial v}{\\partial t} &= D_v \\nabla^2 v + g(u, v)\n\\end{aligned}\n\\]"
   },
   {
     "objectID": "index.html#slide-3",
