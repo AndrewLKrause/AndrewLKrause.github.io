@@ -46,13 +46,13 @@ format: revealjs
 
 ::: {.slide-panel}
 
-### Reaction-diffusion system
+### Gray-Scott reaction-diffusion system
 
 ::: {.equations}
 $$
 \begin{aligned}
-\frac{\partial u}{\partial t} &= D_u \nabla^2 u + f(u, v), \\
-\frac{\partial v}{\partial t} &= D_v \nabla^2 v + g(u, v)
+\frac{\partial u}{\partial t} &= D_u\nabla^2 u + f(u, v) = \nabla^2 u + u^2 v - (a+b) u , \\
+\frac{\partial v}{\partial t} &= D_v \nabla^2 v + g(u, v) = 2 \nabla^2 v-u^2 v + a (1 - v)
 \end{aligned}
 $$
 :::
