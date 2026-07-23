@@ -3,56 +3,87 @@
   font-family: "Inter", sans-serif;
 }
 
-.title-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100%;
+.reveal .slides section.title-slide {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem;
+}
+
+.title-slide > * {
+  width: 100%;
+  max-width: 900px;
 }
 
 .title-slide h1 {
   margin-bottom: 1rem;
-  max-width: 900px;
 }
 
-.title-slide h4 {
-  margin: 0;
-  color: #444;
-  font-weight: normal;
-  font-size: 1rem;
-}
-
-.title-slide img {
-  margin: 1rem 0;
-}
-
-.title-slide p {
+.title-slide p,
+.title-slide strong {
   margin-top: 1rem;
   color: #555;
+}
+
+.title-slide img,
+.title-slide img.title-logo,
+.title-slide img.r-stretch.title-logo,
+body .reveal .slides section.title-slide img.title-logo,
+body .reveal .slides section.title-slide img.r-stretch.title-logo {
+  margin: 1rem auto !important;
+  display: block !important;
+  position: relative !important;
+  z-index: 2 !important;
+  width: clamp(200px, 32vw, 340px) !important;
+  max-width: 340px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .reveal .slides section {
   background: #ffffff;
   color: #1d1d1d;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 1rem 1.5rem;
 }
 
 .reveal .slides section > * {
   max-width: 960px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reveal .slides section .slide-panel,
+.reveal .slides section .columns {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reveal .slides section img {
   max-width: 100%;
   height: auto;
+}
+
+.reveal .slides section h1,
+.reveal .slides section h2 {
+  font-size: clamp(3rem, 2.8vw, 2.8rem);
+  margin: 0 0 0.75rem;
+}
+
+.title-slide h2 {
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  max-width: 900px;
+}
+
+.slide-panel h3 {
+  font-size: clamp(1.7rem, 2.2vw, 2.1rem);
+  margin-bottom: 0.8rem;
 }
 
 .columns {

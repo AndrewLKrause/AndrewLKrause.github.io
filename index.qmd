@@ -3,13 +3,17 @@ title-block: false
 format: revealjs
 ---
 
+::: {.title-slide}
+
 ## Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations
 
 **Andrew Krause (@Blindmath)**
 
-![](images/DurUni.png){fig-alt="Durham University logo" width="45%"}
+<img class="title-logo" src="images/DurUni.png" alt="Durham University logo" loading="eager">
 
 *To navigate: press → and ← or swipe left and right on mobile.*
+
+:::
 
 ---
 
