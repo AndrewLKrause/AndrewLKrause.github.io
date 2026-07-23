@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html#slide-2",
-    "href": "index.html#slide-2",
+    "objectID": "index.html#visualpde-example",
+    "href": "index.html#visualpde-example",
     "title": "Reveal.js Presentation",
-    "section": "Slide 2",
-    "text": "Slide 2\n\nUse Quarto for authoring\nUse revealjs format\nUse docs/ for GitHub Pages output"
+    "section": "VisualPDE Example",
+    "text": "VisualPDE Example\nReaction-diffusion system\n[\n\\[\\begin{aligned}\n\\frac{\\partial u}{\\partial t} &= D_u \\nabla^2 u + f(u, v), \\\\\n\\frac{\\partial v}{\\partial t} &= D_v \\nabla^2 v + g(u, v)\n\\end{aligned}\\]\n]"
   },
   {
     "objectID": "index.html#slide-3",
