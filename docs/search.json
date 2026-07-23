@@ -18,7 +18,7 @@
     "href": "index.html#visualpde-example",
     "title": "",
     "section": "VisualPDE Example",
-    "text": "VisualPDE Example\n\nReaction-diffusion system\n\n\\[\n\\begin{aligned}\n\\frac{\\partial u}{\\partial t}=\\nabla^2 u-\\nabla \\cdot(\\chi(u)\\nabla v)+f_u(u), \\qquad\n\\frac{\\partial v}{\\partial t}=D\\nabla^2v+ f_v(u,v)\n\\end{aligned}\n\\]"
+    "text": "VisualPDE Example\n\nGray-Scott reaction-diffusion system\n\n\\[\n\\begin{aligned}\n\\frac{\\partial u}{\\partial t} &= D_u\\nabla^2 u + f(u, v) = \\nabla^2 u + u^2 v - (a+b) u , \\\\\n\\frac{\\partial v}{\\partial t} &= D_v \\nabla^2 v + g(u, v) = 2 \\nabla^2 v-u^2 v + a (1 - v)\n\\end{aligned}\n\\]"
   },
   {
     "objectID": "index.html#slide-3",

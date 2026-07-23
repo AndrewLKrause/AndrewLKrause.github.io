@@ -150,13 +150,13 @@
 </section>
 <section id="visualpde-example" class="slide level2">
 <h2>VisualPDE Example</h2>
-<section id="reaction-diffusion-system" class="slide-panel">
-<h3>Reaction-diffusion system</h3>
+<section id="gray-scott-reaction-diffusion-system" class="slide-panel">
+<h3>Gray-Scott reaction-diffusion system</h3>
 <div class="equations">
 <p><span class="math display">\[
 \begin{aligned}
-\frac{\partial u}{\partial t}=\nabla^2 u-\nabla \cdot(\chi(u)\nabla v)+f_u(u), \qquad
-\frac{\partial v}{\partial t}=D\nabla^2v+ f_v(u,v)
+\frac{\partial u}{\partial t} &amp;= D_u\nabla^2 u + f(u, v) = \nabla^2 u + u^2 v - (a+b) u , \\
+\frac{\partial v}{\partial t} &amp;= D_v \nabla^2 v + g(u, v) = 2 \nabla^2 v-u^2 v + a (1 - v)
 \end{aligned}
 \]</span></p>
 </div>
