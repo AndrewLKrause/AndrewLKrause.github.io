@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: docs
+
+format:
+  revealjs:
+    theme: moon
+    width: 1280
+    height: 720
+    slide-number: true
+    transition: slide
+    incremental: true
+    css: styles.css
+    navigation:
+      scroll: true
+      title: true

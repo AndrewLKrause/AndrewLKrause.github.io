@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html#slide-2",
+    "href": "index.html#slide-2",
+    "title": "Reveal.js Presentation",
+    "section": "Slide 2",
+    "text": "Slide 2\n\nUse Quarto for authoring\nUse revealjs format\nUse docs/ for GitHub Pages output"
+  },
+  {
+    "objectID": "index.html#slide-3",
+    "href": "index.html#slide-3",
+    "title": "Reveal.js Presentation",
+    "section": "Slide 3",
+    "text": "Slide 3\n\nAdd more sections with --- between slides.\n\n\nSpeaker notes can be added using ???"
+  },
+  {
+    "objectID": "index.html#thank-you",
+    "href": "index.html#thank-you",
+    "title": "Reveal.js Presentation",
+    "section": "Thank you",
+    "text": "Thank you\n\nVisit your published page after deployment\nCustomize the content in index.qmd"
+  }
+]

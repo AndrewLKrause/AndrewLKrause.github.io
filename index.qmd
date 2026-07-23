@@ -1,0 +1,33 @@
+---
+title: "Reveal.js Presentation"
+format: revealjs
+---
+
+# Welcome
+
+- This is a Quarto Reveal.js presentation
+- Built from `index.qmd`
+- Deploys automatically on push with GitHub Actions
+
+---
+
+## Slide 2
+
+1. Use Quarto for authoring
+2. Use `revealjs` format
+3. Use `docs/` for GitHub Pages output
+
+---
+
+## Slide 3
+
+> Add more sections with `---` between slides.
+
+- Speaker notes can be added using `???`
+
+---
+
+## Thank you
+
+- Visit your published page after deployment
+- Customize the content in `index.qmd`

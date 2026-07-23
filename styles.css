@@ -1,0 +1,14 @@
+/* Custom Reveal.js styling for the presentation */
+.reveal {
+  font-family: "Inter", sans-serif;
+}
+
+.reveal .slides section {
+  color: #ffffff;
+}
+
+.reveal .slides section h1,
+.reveal .slides section h2,
+.reveal .slides section h3 {
+  color: #ffdd57;
+}
