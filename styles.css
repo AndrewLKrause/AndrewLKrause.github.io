@@ -112,17 +112,21 @@ kbd {
   position: relative;
   min-height: 320px;
   margin: 1.25rem auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .swap-frame > .fragment {
   position: absolute;
+  align-items: center;
+  justify-content: center;
   inset: 0;
 }
 
 .swap-frame .columns {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 1.25rem;
   height: 100%;
 }
@@ -144,6 +148,8 @@ kbd {
   display: block;
   max-width: 100%;
   height: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .reveal blockquote {
