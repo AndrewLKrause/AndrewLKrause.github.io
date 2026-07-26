@@ -248,7 +248,7 @@
 <div class="small">
 <p><span class="math display">\[
 \begin{aligned}
-\frac{\partial u}{\partial t} &amp;= D_u\nabla^2 u + \nabla \cdot (\chi(u,v)\nabla v)  \\
+\frac{\partial u}{\partial t} &amp;= D_u\nabla^2 u + f(u,v) = \nabla^2 u +u^2 v - (a+b) u  \\
 \frac{\partial v}{\partial t} &amp;= D_v \nabla^2 v + g(u, v) = 2 \nabla^2 v-u^2 v + a (1 - v)
 \end{aligned}
 \]</span></p>
@@ -257,8 +257,9 @@
 <iframe class="visualpde-embed" title="Gray Scott" src="https://visualpde.com/sim?options=N4IgxiBcIG4JYCc4BM4GcQBoTIKq6hAEYscA1MwgJlOQHU7CAGWjaIpz0sA6F7MJXakA1oQCGAXiYA6JgGYA7AAI4AO2UBtJpllEAugG4ARtLkA2VRu1yALLpkHDpALbjmMpa7jNSAB0IAYQBXNAAXAHsXfwQI4wBTADFgtUJgmLj4gBl4tQBzMIALKHlOHRAEXhBggD0qACoYZQBaZQAKcQBqYwBKevTsBCEQZtqGps7lcXq2ohblGB7SBEY+UjQA6Hl11OhghdIYKE1QcQRYgHdAiIAbCOCEKHMAVmf5Z+wzy4ARXLQ4MIATygsg+IC+EQuOXyRQAsuIAB6EEifc6QgDKYHEN3iEmCkVIEIuAA1CFkAPoIgD0VHmSNRlwAmmTyYCafNgZ98RF0fEwtc7g8AErifK4yAAM2xaHiAnELniCHEABVCnz3JBSnKFUqAAqFHya8pYnXiABaESiIJkAA4BLd7gg3JtYIgUOhuA6HsYzlApTcZfa1JEHmx-YHwBFg46BY6QUGQwgAKJ+f53XayJhEBOOgBywWikDBYFCkRc6IeUrA4vDspA8RcxgiaDD0rrDabLYAgo24LkwtawR3m2hvnAJRLQuLZOZsMOW-rDUQZM9FEw7fXGyP0Qa1MDIBw51uW+iXJaimp4i3rVQj520Oi-PESzdfZBZLfN-fVerrYobc89ggBKNxwH4T7ILGDzOn6bbYKBl50CgcLBDcUDZiAbgIlBQzYsE4ogLIXjYC46g4WQeEEfwIARDAiqvvutbYLR9HiICOHxjRdEIAxKZplG1qcGCLE8WxSYIn4jzCMx3EMVk6jxEhyAoWhB7YH4dxhMqgJPoQGmiri6mxMY6h5LBAZ1pJmTJLs1QZAk0IFMURqcEZmTabp0DqGE8R5EqaFuQkpJrIF8TMiFIBoJW4jVjZvjYEUCDxPE3wABLxHAeSFGEmLYtOMiKNgdFgJECCJH2NzIOZEYXIU4haREuqaWkpBqPKBEkAAvvo2AXFVeykBcLoDJFcAuMqAI4oQADiSqAoAyASYhEYQDp1QA" frameborder="0">
 </iframe>
 </section>
-<section id="keller-segel-chemotaxis" class="slide level2">
-<h2>Keller-Segel chemotaxis</h2>
+<section class="slide level2">
+
+<h3 id="keller-segel-chemotaxis">Keller-Segel chemotaxis</h3>
 <div class="columns">
 <div class="column" style="width:&quot;50%;">
 <div class="column-text-spacing">
@@ -277,8 +278,9 @@
 <iframe class="visualpde-embed" title="Keller-Segel Chemotaxis" src="https://visualpde.com/sim?options=N4IgRgTiBcIKwDoBsAGN6MbiANOAbjCAEoCCAcgCK4gDG10ALhAK4CmeAJgKrdECMNHgDUiAWloAqFgHoAFPwDULAHoAmAJRDho2NS4B1A0RRDGMFAjRw8bGM3Z5afWEstrJZKjVq6Q-GQBDGgBrIloAAgBeCIAWCIBLADsIgG0AZhwIy34s2IBdAG5KaIj+RJTUlCz+IsDSnIq06uyENXyaAFtg2DUEbDxOhJMrNFiADjV+FDgUAE4AdhR02LnYpEE8AAciAGEWAGdGAHtOmi2IY7A2ADEWJKIWc8vrgBk2JIBzRgALGH5ZngIC4QCxJAoxCwtEC-CwxIFJIQgcZYKY8Acdqi2jQDg9YCwIkiQAcnkxWBwQIRoKlQIEIJcAO67Y4AG2OLCg0CQcDg6RsIDpjMoHwOCUYAE8LP08ILjgz3l9fgBZQIADwENFlDIAyrRAiy7LBAiwTpr6XKABpEV4AfVVMjUETEEXVMvNDIAmtabeKHU6IpKZSbjtq2IxmWyOcRAl9DQAzfUHCl6zpsCCBAAqPzDPXS1TogVT6YACj9htA805C2nAgAtY6nKXjJys9kQbqYkCMDlgY4+Vs9ukwBMspMtpInDkHYeJ5PHCdtiNtizjycQACiW1FbLxlhQuTo87X5BYZ2g-NohxOnW1HITtHjs9snV7B2nZMcIDYL+Ob9IL4SD5zGgSx+W-V8DkoBI4zjQ5DUsJBnwg0ty34folmbL8fzfbUyySSVoGmJDfwObVOgbX4kjYN8pTUYicK2NhLxZIcQLaeiDizHMpQWcY4FiPA4xZBItkYzglw5DsZ1HClhKogwEk4ZUWBZf5BjVCSIGEfV2CIPoBhAIYkk07SWV0rF0AmKYZnmJYVjWDYaGOfA0xYgiRzHEBnNcwJxU0lcvJciA3M3bd5ylaw8G84LfPXVULg1KKgrc15kjYBSlJ+JUVLUkAtjZRgM3FRiiHymM7G2F5kk+aTPIuK5bnuR5ngahVvj+QjATyl42CKkrYGSRg2E+dNVMqhqrVRFrri9Kb0TvQIHzuPEQDRLsfggNg2EoAAJNgEk+H5GF1fV4IQBY8Bc2gTggG5AJZThaopBkfkCQrjmLArmrwJJqw1ABffI8AZR78RoBlOyedEEk6DMxQNIgAGk2BZA0IEAZAJQ0+FGQH+oA" frameborder="0">
 </iframe>
 </section>
-<section id="cyclic-competition" class="slide level2">
-<h2>Cyclic competition</h2>
+<section class="slide level2">
+
+<h3 id="cyclic-competition">Cyclic competition</h3>
 <div class="columns">
 <div class="column" style="width:&quot;50%;">
 <div class="column-text-spacing">
@@ -311,13 +313,12 @@ u_{t+\Delta t} = u_t + r u_t(1-u_t)
 <iframe src="https://www.desmos.com/calculator/e7httzwuxp" width="100%" height="600" frameborder="0">
 </iframe>
 </section>
-<section id="bifurcation-diagrams-as-motifs" class="slide level2">
-<h2>Bifurcation diagrams as motifs</h2>
-<p><a href="https://www.andrewkrause.org/criticality-visualization" target="_blank">Criticality visualization</a></p>
-</section>
-<section class="slide level2">
-
-<h3 id="cancer-patterning-as-treatment-resistance-mechanism">Cancer patterning as treatment resistance mechanism</h3>
+<section id="motifs-resilience-as-an-example" class="slide level2">
+<h2>Motifs: Resilience as an example</h2>
+<div class="fragment fade-in-then-out">
+<p><img data-src="images/Vegetation.jpg"></p>
+<p><a href="https://doi.org/10.1016/j.plrev.2022.09.005" target="_blank">Sung et. al 2022 (10.1016/j.plrev.2022.09.005)</a></p>
+</div>
 </section>
 <section id="rainfall-gradients-in-vegetation" class="slide level2">
 <h2>Rainfall gradients in vegetation</h2>
@@ -330,37 +331,32 @@ u_{t+\Delta t} = u_t + r u_t(1-u_t)
 <div class="small">
 <p><span class="math display">\[
 \begin{aligned}
-\frac{\partial n}{\partial t} &amp;= D_u\nabla^2 n + a-w -wn^2+V\frac{\partial w}{\partial x}  \\
-\frac{\partial w}{\partial t} &amp;= D_v \nabla^2 w + wn^2 - mn + \nabla^2n
+\frac{\partial w}{\partial t} &amp;=  a(y)-w -wn^2+V\frac{\partial w}{\partial x}  \\
+\frac{\partial n}{\partial t} &amp;=   wn^2 - mn + \nabla^2 n
 \end{aligned}
 \]</span></p>
 </div>
 </div></div>
-<iframe class="visualpde-embed" title="Keller-Segel Chemotaxis" src="https://visualpde.com/sim/?preset=KlausmeierRainfallGradient" frameborder="0">
+<iframe class="visualpde-embed" title="Vegetation" src="https://visualpde.com/sim?mini=mKbhGCSF" frameborder="0">
 </iframe>
-</section>
-<section id="localised-pattern-formation" class="slide level2">
-<h2>Localised pattern formation</h2>
 </section>
 <section class="slide level2">
 
-<div class="columns">
-<div class="column" style="width:&quot;50%;">
-<div class="column-text-spacing">
-<p><a href="https://visualpde.com/mathematical-biology/vegetation-patterns" target="_blank">VisualPDE Link</a></p>
-</div>
-</div><div class="column" style="width:&quot;50%;">
-<div class="small">
-<p><span class="math display">\[
-\begin{aligned}
-\frac{\partial n}{\partial t} &amp;= D_u\nabla^2 n + a-w -wn^2+V\frac{\partial w}{\partial x}  \\
-\frac{\partial w}{\partial t} &amp;= D_v \nabla^2 w + wn^2 - mn + \nabla^2n
-\end{aligned}
-\]</span></p>
-</div>
-</div></div>
-<iframe class="visualpde-embed" title="Keller-Segel Chemotaxis" src="https://visualpde.com/sim/?preset=KlausmeierRainfallGradient" frameborder="0">
+<h3 id="cancer-patterning-as-treatment-resistance-mechanism">Cancer patterning as treatment resistance mechanism</h3>
+<p><a href="https://visualpde.com/mathematical-biology/immunotherapy-model.html" target="_blank">VisualPDE Link</a></p>
+<iframe class="visualpde-embed" title="Cancer Patterning" src="https://visualpde.com/sim?mini=6rMOlbnq" frameborder="0">
 </iframe>
+<p><a href="https://link.springer.com/article/10.1007/s11538-025-01485-3" target="_blank">Brennan, ALK, Villar-Sepúlveda, Prior, 2025</a></p>
+</section>
+<section class="slide level2">
+
+<h3 id="final-thoughts">Final thoughts</h3>
+<ul>
+<li class="fragment"><p><strong>Diverse Mixed Strategies</strong></p></li>
+<li class="fragment"><p><strong>Philosophy, Sociology, and communication matter</strong></p></li>
+<li class="fragment"><p><strong>Remember the Human:</strong> Easy to forget that how we search for answers in terms of people/resources is as or more important than the answers we find.</p></li>
+<li class="fragment"><p>Coming soon: VisualPDE Research</p></li>
+</ul>
 </section>
 <section class="slide level2">
 

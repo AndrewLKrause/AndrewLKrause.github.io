@@ -7,38 +7,17 @@
     "text": "Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations\n\nAndrew Krause (@Blindmath)"
   },
   {
-    "objectID": "index.html#keller-segel-chemotaxis",
-    "href": "index.html#keller-segel-chemotaxis",
+    "objectID": "index.html#motifs-resilience-as-an-example",
+    "href": "index.html#motifs-resilience-as-an-example",
     "title": "",
-    "section": "Keller-Segel chemotaxis",
-    "text": "Keller-Segel chemotaxis\n\n\n\nVisualPDE Link\n\n\n\n\\[\n\\begin{aligned}\n\\frac{\\partial u}{\\partial t} &= D_u\\nabla^2 u + \\nabla \\cdot (\\chi(u,v)\\nabla v)  \\\\\n\\frac{\\partial v}{\\partial t} &= D_v \\nabla^2 v + g(u, v) = 2 \\nabla^2 v-u^2 v + a (1 - v)\n\\end{aligned}\n\\]"
-  },
-  {
-    "objectID": "index.html#cyclic-competition",
-    "href": "index.html#cyclic-competition",
-    "title": "",
-    "section": "Cyclic competition",
-    "text": "Cyclic competition\n\n\n\nVisualPDE Link\n\n\n\n\\[\n\\begin{aligned}\n\\frac{\\partial u_i}{\\partial t}&=D_{u_i}\\nabla^2 u_i(1-u_i-au_{i-1}-bu_{i+1}) \\\\ &a &lt; 1 &lt; b, \\quad i \\in \\{1,2,3\\}\\,\\, (\\textrm{mod } 3)\n\\end{aligned}\n\\]"
-  },
-  {
-    "objectID": "index.html#bifurcation-diagrams-as-motifs",
-    "href": "index.html#bifurcation-diagrams-as-motifs",
-    "title": "",
-    "section": "Bifurcation diagrams as motifs",
-    "text": "Bifurcation diagrams as motifs\nCriticality visualization"
+    "section": "Motifs: Resilience as an example",
+    "text": "Motifs: Resilience as an example\n\n\nSung et. al 2022 (10.1016/j.plrev.2022.09.005)"
   },
   {
     "objectID": "index.html#rainfall-gradients-in-vegetation",
     "href": "index.html#rainfall-gradients-in-vegetation",
     "title": "",
     "section": "Rainfall gradients in vegetation",
-    "text": "Rainfall gradients in vegetation\n\n\n\nVisualPDE Link\n\n\n\n\\[\n\\begin{aligned}\n\\frac{\\partial n}{\\partial t} &= D_u\\nabla^2 n + a-w -wn^2+V\\frac{\\partial w}{\\partial x}  \\\\\n\\frac{\\partial w}{\\partial t} &= D_v \\nabla^2 w + wn^2 - mn + \\nabla^2n\n\\end{aligned}\n\\]"
-  },
-  {
-    "objectID": "index.html#localised-pattern-formation",
-    "href": "index.html#localised-pattern-formation",
-    "title": "",
-    "section": "Localised pattern formation",
-    "text": "Localised pattern formation"
+    "text": "Rainfall gradients in vegetation\n\n\n\nVisualPDE Link\n\n\n\n\\[\n\\begin{aligned}\n\\frac{\\partial w}{\\partial t} &=  a(y)-w -wn^2+V\\frac{\\partial w}{\\partial x}  \\\\\n\\frac{\\partial n}{\\partial t} &=   wn^2 - mn + \\nabla^2 n\n\\end{aligned}\n\\]"
   }
 ]

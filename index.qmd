@@ -174,7 +174,7 @@ For more quotes, see [empathicdynamics.wordpress.com/2019/07/25/quotes-about-mat
 ::: {.small}
 $$
 \begin{aligned}
-\frac{\partial u}{\partial t} &= D_u\nabla^2 u + \nabla \cdot (\chi(u,v)\nabla v)  \\
+\frac{\partial u}{\partial t} &= D_u\nabla^2 u + f(u,v) = \nabla^2 u +u^2 v - (a+b) u  \\
 \frac{\partial v}{\partial t} &= D_v \nabla^2 v + g(u, v) = 2 \nabla^2 v-u^2 v + a (1 - v)
 \end{aligned}
 $$
@@ -186,7 +186,7 @@ $$
 
 ---
 
-## Keller-Segel chemotaxis
+### Keller-Segel chemotaxis
 
 ::: {.columns}
 ::: {.column width="50%}
@@ -213,7 +213,7 @@ $$
 ---
 
 
-## Cyclic competition
+### Cyclic competition
 
 ::: {.columns}
 ::: {.column width="50%}
@@ -267,13 +267,14 @@ $$
 
 
 
-## Bifurcation diagrams as motifs
+## Motifs: Resilience as an example
 
-[Criticality visualization](https://www.andrewkrause.org/criticality-visualization){target="_blank"}
+::: {.fragment .fade-in-then-out}
+![](images/Vegetation.jpg)
 
----
+[Sung et. al 2022 (10.1016/j.plrev.2022.09.005)](https://doi.org/10.1016/j.plrev.2022.09.005){target="_blank"}
 
-### Cancer patterning as treatment resistance mechanism
+:::
 
 ---
 
@@ -291,43 +292,34 @@ $$
 ::: {.small}
 $$
 \begin{aligned}
-\frac{\partial n}{\partial t} &= D_u\nabla^2 n + a-w -wn^2+V\frac{\partial w}{\partial x}  \\
-\frac{\partial w}{\partial t} &= D_v \nabla^2 w + wn^2 - mn + \nabla^2n
+\frac{\partial w}{\partial t} &=  a(y)-w -wn^2+V\frac{\partial w}{\partial x}  \\
+\frac{\partial n}{\partial t} &=   wn^2 - mn + \nabla^2 n
 \end{aligned}
 $$
 :::
 :::
 :::
 
-<iframe class="visualpde-embed" title="Keller-Segel Chemotaxis" src="https://visualpde.com/sim/?preset=KlausmeierRainfallGradient" frameborder="0"></iframe>
+<iframe class="visualpde-embed" title="Vegetation" src="https://visualpde.com/sim?mini=mKbhGCSF" frameborder="0"></iframe>
 
 ---
 
-## Localised pattern formation
+### Cancer patterning as treatment resistance mechanism
+
+[VisualPDE Link](https://visualpde.com/mathematical-biology/immunotherapy-model.html){target="_blank"}
+
+<iframe class="visualpde-embed" title="Cancer Patterning" src="https://visualpde.com/sim?mini=6rMOlbnq" frameborder="0"></iframe>
+
+[Brennan, ALK, Villar-Sepúlveda, Prior, 2025](https://link.springer.com/article/10.1007/s11538-025-01485-3){target="_blank"}
 
 ---
 
+### Final thoughts
 
-::: {.columns}
-::: {.column width="50%}
+- **Diverse Mixed Strategies** 
+- **Philosophy, Sociology, and communication matter** 
+- **Remember the Human:** Easy to forget that how we search for answers in terms of people/resources is as or more important than the answers we find.
 
-::: {.column-text-spacing}
-[VisualPDE Link](https://visualpde.com/mathematical-biology/vegetation-patterns){target="_blank"}
-:::
-:::
-
-::: {.column width="50%}
-::: {.small}
-$$
-\begin{aligned}
-\frac{\partial n}{\partial t} &= D_u\nabla^2 n + a-w -wn^2+V\frac{\partial w}{\partial x}  \\
-\frac{\partial w}{\partial t} &= D_v \nabla^2 w + wn^2 - mn + \nabla^2n
-\end{aligned}
-$$
-:::
-:::
-:::
-
-<iframe class="visualpde-embed" title="Keller-Segel Chemotaxis" src="https://visualpde.com/sim/?preset=KlausmeierRainfallGradient" frameborder="0"></iframe>
+- Coming soon: VisualPDE Research
 
 ---
