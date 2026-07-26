@@ -158,3 +158,8 @@ kbd {
   font-style: italic;
   font-size: 1em;
 }
+
+.column-text-spacing {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}

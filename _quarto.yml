@@ -15,6 +15,10 @@ format:
     incremental: true
     mobile: true
     css: styles.css
+    chalkboard:
+      theme: whiteboard
+      buttons: true
+
     navigation:
       scroll: true
       title: true
