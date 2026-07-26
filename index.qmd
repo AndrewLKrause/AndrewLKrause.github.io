@@ -200,8 +200,8 @@ $$
 ::: {.small}
 $$
 \begin{aligned}
-\frac{\partial u}{\partial t} &= D_u\nabla^2 u + \nabla \cdot (\chi(u,v)\nabla v)  \\
-\frac{\partial v}{\partial t} &= D_v \nabla^2 v + g(u, v) = 2 \nabla^2 v-u^2 v + a (1 - v)
+\frac{\partial u}{\partial t} &= D_u\nabla^2 u + \nabla \cdot (\chi(u,v)\nabla v) +u(1-u)  \\
+\frac{\partial v}{\partial t} &= D_v \nabla^2 v + u-av
 \end{aligned}
 $$
 :::
@@ -227,7 +227,7 @@ $$
 ::: {.small}
 $$
 \begin{aligned}
-\frac{\partial u_i}{\partial t}&=D_{u_i}\nabla^2 u_i(1-u_i-au_{i-1}-bu_{i+1}) \\ &a < 1 < b, \quad i \in \{1,2,3\}\,\, (\textrm{mod } 3)
+\frac{\partial u_i}{\partial t}&=D_{u_i}\nabla^2 u_i+u_i(1-u_i-au_{i-1}-bu_{i+1}) \\ &a < 1 < b, \quad i \in \{1,2,3\}\,\, (\textrm{mod } 3)
 \end{aligned}
 $$
 :::
