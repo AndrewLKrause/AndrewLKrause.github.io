@@ -278,6 +278,12 @@ $$
 
 ---
 
+## Fronts of foliage and desertification
+
+<iframe class="visualpde-embed-two" title="Vegetation2" src="https://visualpde.com/sim?mini=2c4BU_r6" frameborder="0"></iframe>
+
+---
+
 ## Rainfall gradients in vegetation
 
 ::: {.columns}

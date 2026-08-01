@@ -60,6 +60,13 @@
   border-radius: 0.35rem;
 }
 
+.visualpde-embed-two {
+  width: 100%;
+  min-height: 650px;
+  border: 0;
+  border-radius: 0.35rem;
+}
+
 @media (max-width: 900px) {
   .reveal {
     font-size: 22px;
@@ -70,6 +77,9 @@
   }
 
   .visualpde-embed {
+    min-height: 260px;
+  }
+  .visualpde-embed-two {
     min-height: 260px;
   }
 }
@@ -94,6 +104,9 @@
   }
 
   .visualpde-embed {
+    min-height: 70vh;
+  }
+  .visualpde-embed-two {
     min-height: 70vh;
   }
 }
