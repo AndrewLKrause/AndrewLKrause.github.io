@@ -1,4 +1,4 @@
----
+﻿---
 title-block: false
 format: revealjs
 ---
@@ -9,7 +9,7 @@ format: revealjs
 
 **Andrew Krause (@Blindmath)**
 
-<img src="images/DurUni.png" alt="Durham University logo" loading="eager">
+<img src="../images/DurUni.png" alt="Durham University logo" loading="eager">
 
 ---
 
@@ -18,13 +18,13 @@ format: revealjs
 :::  columns
 
 :::  column
-![](images/presentation_qr.png){width=65%}
+![](../images/presentation_qr.png){width=65%}
 
 [**andrewlkrause.github.io**](https://andrewlkrause.github.io){target="_blank"}
 :::
 
 ::: column
-![](images/qr-code.png){width=65%}
+![](../images/qr-code.png){width=65%}
 
 [**VisualPDE.com**](https://visualpde.com){target="_blank"}
 :::
@@ -38,7 +38,7 @@ format: revealjs
 ### Why do modelling when we have data and LLMs?
 
 ::: {.fragment .fade-in-then-out}
-![](images/Biocomplexity.jpg){width=100%}
+![](../images/Biocomplexity.jpg){width=100%}
 :::
 
 ---
@@ -55,7 +55,7 @@ format: revealjs
 
 :::
 ::: {.column width="40%"}
-![](images/Turing.jpg){width=100%}
+![](../images/Turing.jpg){width=100%}
 :::
 :::
 :::
@@ -69,7 +69,7 @@ format: revealjs
 "[We] treat the same problem with several alternative models each with different simplifications... if these models, despite their different assumptions, lead to similar results we have a robust theorem which is relatively free of the details of the model. Hence ***our truth is the intersection of independent lies.***" --Richard Levins
 :::
 ::: {.column width="20%"}
-![](images/Levins.jpg){width=100%}
+![](../images/Levins.jpg){width=100%}
 :::
 :::
 :::
@@ -81,7 +81,7 @@ format: revealjs
 "...although all scientists share a common ambition for knowledge, it does not follow that ***what counts as knowledge is commonly agreed upon***. The history of science reveals a wide diversity of questions asked, explanations sought, and methodologies employed..." --Evelyn Fox Keller
 :::
 ::: {.column width="40%"}
-![](images/Keller.webp){width=100%}
+![](../images/Keller.webp){width=100%}
 :::
 :::
 :::
@@ -93,7 +93,7 @@ format: revealjs
 "...this diversity is in turn reflected in the kinds of knowledge acquired, and indeed in ***what counts as knowledge***. To a large degree, both the ***kinds of questions one asks and the explanations that one finds satisfying*** depend on one's *a priori* relation to the objects of study." --Evelyn Fox Keller
 :::
 ::: {.column width="40%"}
-![](images/Keller.webp){width=100%}
+![](../images/Keller.webp){width=100%}
 :::
 :::
 :::
@@ -126,19 +126,19 @@ For more quotes, see [empathicdynamics.wordpress.com/2019/07/25/quotes-about-mat
 
 ### The origin of chemical pattern formation
 
-![](images/ChemicalBasis.png)
+![](../images/ChemicalBasis.png)
 
 ---
 
 ###
 
-![](images/TuringSlide.jpg)
+![](../images/TuringSlide.jpg)
 
 --- 
 
 ###
 
-![](images/FlagsSlide.jpg)
+![](../images/FlagsSlide.jpg)
 
 --- 
 
@@ -146,11 +146,11 @@ For more quotes, see [empathicdynamics.wordpress.com/2019/07/25/quotes-about-mat
 
 ::: {.columns}
 ::: {.column width="50%}
-![](images/Fig2.PNG)
+![](../images/Fig2.PNG)
 :::
 
 ::: {.column width="50%}
-![](images/Fig3.PNG)
+![](../images/Fig3.PNG)
 :::
 :::
 
@@ -270,7 +270,7 @@ $$
 ## Motifs: Resilience as an example
 
 ::: {.fragment .fade-in-then-out}
-![](images/Vegetation.jpg)
+![](../images/Vegetation.jpg)
 
 [Sung et. al 2022 (10.1016/j.plrev.2022.09.005)](https://doi.org/10.1016/j.plrev.2022.09.005){target="_blank"}
 

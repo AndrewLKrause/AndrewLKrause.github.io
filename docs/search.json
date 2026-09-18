@@ -1,28 +1,28 @@
 [
   {
-    "objectID": "index.html#communicating-nonlinear-dynamics-across-boundaries-via-interactive-simulations",
-    "href": "index.html#communicating-nonlinear-dynamics-across-boundaries-via-interactive-simulations",
+    "objectID": "slides/index.html#communicating-nonlinear-dynamics-across-boundaries-via-interactive-simulations",
+    "href": "slides/index.html#communicating-nonlinear-dynamics-across-boundaries-via-interactive-simulations",
     "title": "",
     "section": "Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations",
     "text": "Communicating Nonlinear Dynamics Across Boundaries via Interactive Simulations\n\nAndrew Krause (@Blindmath)"
   },
   {
-    "objectID": "index.html#motifs-resilience-as-an-example",
-    "href": "index.html#motifs-resilience-as-an-example",
+    "objectID": "slides/index.html#motifs-resilience-as-an-example",
+    "href": "slides/index.html#motifs-resilience-as-an-example",
     "title": "",
     "section": "Motifs: Resilience as an example",
     "text": "Motifs: Resilience as an example\n\n\nSung et. al 2022 (10.1016/j.plrev.2022.09.005)"
   },
   {
-    "objectID": "index.html#fronts-of-foliage-and-desertification",
-    "href": "index.html#fronts-of-foliage-and-desertification",
+    "objectID": "slides/index.html#fronts-of-foliage-and-desertification",
+    "href": "slides/index.html#fronts-of-foliage-and-desertification",
     "title": "",
     "section": "Fronts of foliage and desertification",
     "text": "Fronts of foliage and desertification"
   },
   {
-    "objectID": "index.html#rainfall-gradients-in-vegetation",
-    "href": "index.html#rainfall-gradients-in-vegetation",
+    "objectID": "slides/index.html#rainfall-gradients-in-vegetation",
+    "href": "slides/index.html#rainfall-gradients-in-vegetation",
     "title": "",
     "section": "Rainfall gradients in vegetation",
     "text": "Rainfall gradients in vegetation\n\n\n\nVisualPDE Link\n\n\n\n\\[\n\\begin{aligned}\n\\frac{\\partial w}{\\partial t} &=  a(y)-w -wn^2+V\\frac{\\partial w}{\\partial x}  \\\\\n\\frac{\\partial n}{\\partial t} &=   wn^2 - mn + \\nabla^2 n\n\\end{aligned}\n\\]"
