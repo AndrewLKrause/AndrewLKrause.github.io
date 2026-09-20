@@ -238,35 +238,6 @@ $$
 
 ---
 
-### Interactivity and simulation in the future?
-
-$$
-u_{t+\Delta t} = u_t + r u_t(1-u_t) 
-$$
-
-<iframe 
-  src="https://www.desmos.com/calculator/vvkkfvqcat" 
-  width="100%"
-  height="500"
-  frameborder="0">
-</iframe>
-
----
-
-### Interactivity and simulation in the future?
-
-<iframe 
-  src="https://www.desmos.com/calculator/e7httzwuxp" 
-  width="100%"
-  height="600"
-  frameborder="0">
-</iframe>
-
----
-
-
-
-
 ## Motifs: Resilience as an example
 
 ::: {.fragment .fade-in-then-out}
@@ -319,6 +290,24 @@ $$
 [Brennan, ALK, Villar-Sepúlveda, Prior, 2025](https://link.springer.com/article/10.1007/s11538-025-01485-3){target="_blank"}
 
 ---
+
+## Spatiotemporal heterogeneity
+$$
+\frac{\partial \boldmath{u}}{\partial t} = \mathcal{L}(\nabla^2) \boldmath{u} + \boldmath{f}(\boldmath{u}, p(\varepsilon x,\omega t)), \quad 0 < \varepsilon, \omega \ll 1.
+$$
+
+[![A patterned version of ALan Turing](../images/TuringPatterned.png)](https://visualpde.com/art-pdes/turing-face)
+
+### Weakly nonlinear theory for spatiotemporal heterogeneity
+...After some messy asymptotic calculations, we find that $\boldmath{u} = \boldmath{u_0} + \varepsilon A(\sigma, t) e^{i k_c x} \boldmath{U_1}$ where $A$ satisfies:
+$$\begin{aligned}
+        0 &=  \alpha_1\frac{\partial ^2 A}{\partial \sigma^2}   + \left(\dot{x_\ell}(t) \frac{\omega}{\varepsilon^8} \alpha_2 + i \alpha_{2,i}\right) \partial_\sigma A+ i \alpha_3 |A|^2 \partial_\sigma A
+        \\
+        &+ i \alpha_4 A^2 \overline{\partial_\sigma A} + \left(\alpha_5 + \sigma \partial_x p(x_\ell(t), t) \alpha_{5,s}\right) A + \alpha_6 |A|^2 A + \alpha_7 |A|^4 A.
+\end{aligned}$$
+
+::: {.fragment .fade-in-then-out}
+![](../images/animation.gif)
 
 ### Final thoughts
 
