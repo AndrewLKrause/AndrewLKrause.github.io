@@ -296,7 +296,7 @@ $$
 \frac{\partial \boldsymbol{u}}{\partial t} = \mathcal{L}(\nabla^2) \boldsymbol{u} + \boldsymbol{f}(\boldsymbol{u}, p(\varepsilon x,\omega t)), \quad 0 < \varepsilon, \omega \ll 1.
 $$
 
-[![A patterned version of ALan Turing](../images/TuringPatterned.png)](https://visualpde.com/art-pdes/turing-face){.r-stretch}
+[![A patterned version of ALan Turing](../images/TuringPatterned.png){.r-stretch}](https://visualpde.com/art-pdes/turing-face)
 
 
 ### Weakly nonlinear theory for spatiotemporal heterogeneity
