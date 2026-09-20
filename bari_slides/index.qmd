@@ -299,6 +299,7 @@ $$
 [![A patterned version of ALan Turing](../images/TuringPatterned.png)](https://visualpde.com/art-pdes/turing-face)
 
 ### Weakly nonlinear theory for spatiotemporal heterogeneity
+
 ...After some messy asymptotic calculations, we find that $\boldmath{u} = \boldmath{u_0} + \varepsilon A(\sigma, t) e^{i k_c x} \boldmath{U_1}$ where $A$ satisfies:
 $$\begin{aligned}
         0 &=  \alpha_1\frac{\partial ^2 A}{\partial \sigma^2}   + \left(\dot{x_\ell}(t) \frac{\omega}{\varepsilon^8} \alpha_2 + i \alpha_{2,i}\right) \partial_\sigma A+ i \alpha_3 |A|^2 \partial_\sigma A
@@ -308,6 +309,7 @@ $$\begin{aligned}
 
 ::: {.fragment .fade-in-then-out}
 ![](../images/animation.gif)
+:::
 
 ### Final thoughts
 
