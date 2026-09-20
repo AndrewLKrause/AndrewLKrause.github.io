@@ -296,8 +296,10 @@ $$
 \frac{\partial \boldsymbol{u}}{\partial t} = \mathcal{L}(\nabla^2) \boldsymbol{u} + \boldsymbol{f}(\boldsymbol{u}, p(\varepsilon x,\omega t)), \quad 0 < \varepsilon, \omega \ll 1.
 $$
 
-[![A patterned version of ALan Turing](../images/TuringPatterned.png){.nostretch fig-align="center" width="20%"}](https://visualpde.com/art-pdes/turing-face)
+[![A patterned version of ALan Turing](../images/TuringPatterned.png){.nostretch fig-align="center" width="30%"}](https://visualpde.com/art-pdes/turing-face)
 
+
+---
 
 ### Weakly nonlinear theory for spatiotemporal heterogeneity
 
@@ -311,6 +313,16 @@ $$\begin{aligned}
 ::: {.fragment .fade-in-then-out}
 ![](../images/animation.gif)
 :::
+
+---
+
+## Beyond Turing
+
+[Turing instabilities are neither necessary nor sufficient for pattern formation](https://visualpde.com/art-pdes/chemical-basis)
+
+---
+
+
 
 ### Final thoughts
 
