@@ -310,18 +310,17 @@ $$\begin{aligned}
         &+ i \alpha_4 A^2 \overline{\partial_\sigma A} + \left(\alpha_5 + \sigma \partial_x p(x_\ell(t), t) \alpha_{5,s}\right) A + \alpha_6 |A|^2 A + \alpha_7 |A|^4 A.
 \end{aligned}$$
 
-::: {.fragment .fade-in-then-out}
-![](../images/animation.gif)
-:::
-
 ---
+
+### Simulation of this theory
+
+![](../images/animation.gif)
 
 ## Beyond Turing
 
-[Turing instabilities are neither necessary nor sufficient for pattern formation](https://visualpde.com/art-pdes/chemical-basis)
+Turing instabilities are neither [necessary](https://visualpde.com/sim/?preset=PatterningViaLimitCycles) nor [sufficient](https://visualpde.com/mathematical-biology/Turing-conditions-are-not-enough) for pattern formation
 
 ---
-
 
 
 ### Final thoughts
